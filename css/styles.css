@@ -96,7 +96,6 @@ body {
 .list-container {
   display: flex;
   align-items: center;
-  background-color: tomato;
 }
 
 .navi-list:not(:last-child) {
@@ -116,10 +115,10 @@ body {
 .logo {
   font-family: var(--secondary-font);
   color: #4d5ae5;
-  background-color: tomato;
 }
 
 .navi-list-item {
+  display: block;
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -150,18 +149,26 @@ body {
 }
 
 .section-main {
+  position: absolute;
+  align-items: center;
   background: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 260px;
 }
 
-.dark-theme {
-  color: #ffffff;
+.hero-container {
+  text-align: center;
+  margin: 0 auto;
 }
 
 .main-title {
-  text-align: center;
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
+  max-width: 496px;
+  margin: 0 auto 48px auto;
 }
 
 .main-title:hover,
@@ -171,7 +178,15 @@ body {
 }
 
 .button {
-  font-family: var(--primary-font);
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  padding: 16px 32px 16px 32px;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
