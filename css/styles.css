@@ -152,7 +152,6 @@ body {
 
 .section-main {
   background: #2e2f42;
-  width: 1158px;
   padding: 188px 0;
 }
 
@@ -201,10 +200,6 @@ body {
   background-color: #404bbf;
 }
 
-.section-subtitle {
-  width: 1158px;
-}
-
 .subtitle-container {
   display: flex;
   justify-content: space-between;
@@ -231,13 +226,29 @@ body {
   color: #434455;
 }
 
+.image-section {
+  padding-top: 0;
+}
+
+.list-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+.wrapper-item {
+  flex-basis: calc(100% - 48px / 3);
+}
+
 .image-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color);
+  margin-bottom: 72px;
+  text-align: center;
 }
 
 .team-section {
@@ -251,10 +262,24 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--secondary-text-color);
+  margin-bottom: 72px;
+  text-align: center;
+}
+
+.team-container {
+  display: flex;
+  gap: 24px;
+}
+
+.team-list-container {
+  padding: 32px 16px;
+  text-align: center;
 }
 
 .team-list {
   background-color: #ffffff;
+  flex-basis: calc(100% - 72px / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .employee-name {
@@ -262,6 +287,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
   color: var(--secondary-text-color);
 }
 
@@ -277,25 +303,22 @@ body {
   background: #2e2f42;
 }
 
-.logo {
-  font-family: var(--secondary-font);
-  color: #4d5ae5;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.style-logo {
-  color: #f4f4fd;
+.logo-style {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
-.conclusion {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
 
 :root {
