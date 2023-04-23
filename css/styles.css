@@ -150,13 +150,13 @@ body {
 }
 
 .section-main {
-  background: #2e2f42;
-  padding: 188px 0;
+  background: #2e2f42; 
 }
 
 .hero-container {
   text-align: center;
   margin: 0 auto;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -472,7 +472,6 @@ body {
 .button-item:focus {
   background-color: #404bbf;
   color: #ffffff;
-  cursor: pointer;
   border: 1px solid transparent;
 }
 
