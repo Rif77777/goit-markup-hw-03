@@ -466,12 +466,14 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
   padding: 12px 24px;
-  border: 1px solid transparent;
 }
 
-
-  
-
+.button-item:hover,
+.button-item:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+  border: 1px solid transparent;
+}
 
 .title {
   font-weight: 700;
