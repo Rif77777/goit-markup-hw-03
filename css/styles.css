@@ -35,8 +35,7 @@ body {
 
 .container {
   width: 1158px;
-  margin-left: 0 auto;
-  margin-right: 0 auto;
+  margin: 0 auto;
   padding: 0 15px 0 15px;
 }
 
