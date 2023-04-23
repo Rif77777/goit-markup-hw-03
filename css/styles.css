@@ -393,14 +393,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #4d5ae5;
-  background-color: #f4f4fd;
-  cursor: pointer;
+  background-color: #f4f4fd;  
 }
 
 .button-item:hover,
 .button-item:focus {
   color: #ffffff;
   background-color: #404bbf;
+  cursor: pointer;
 }
 
 .features-title {
