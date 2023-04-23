@@ -489,6 +489,10 @@ body {
   color: #2e2f42;
 }
 
+
+.features-title {
+  margin-bottom: 8px;
+}
 .project-list {
   display: flex;
   flex-wrap: wrap;
