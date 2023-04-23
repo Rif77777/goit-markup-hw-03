@@ -127,8 +127,8 @@ body {
   padding-bottom: 24px;
 }
 
-.navi-list-item .link:hover,
-.navi-list-item .link:focus {
+.navi-list-item:hover,
+.navi-list-item:focus {
   color: #404bbf;
 }
 
@@ -169,11 +169,7 @@ body {
   margin: 0 auto 48px auto;
 }
 
-.main-title:hover,
-.main-title:focus {
-  background-color: #404bbf;
-  cursor: pointer;
-}
+
 
 .button {
   display: block;
